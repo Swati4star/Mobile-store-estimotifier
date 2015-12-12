@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Airtel</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Airtel</string>
+
+    <string name="navigation_drawer_open">Airtel</string>
+    <string name="navigation_drawer_close">Airtel</string>
+    <string name="title_activity_map_stores">MapStores</string>
+    <string name="title_activity_list">ListActi</string>
+    <string name="title_activity_recharge">recharge</string>
+</resources>

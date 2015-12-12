@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_buy"
+            android:icon="@drawable/ic_phone_android_black_24dp"
+            android:title="Buy a device" />
+
+        <item
+            android:id="@+id/nav_rec"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Recharge your phone" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_directions_walk_black_24dp"
+            android:title="Visit a store" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_app"
+                android:icon="@drawable/ic_speaker_phone_black_24dp"
+                android:title="My Airtel App" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>
