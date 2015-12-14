@@ -165,7 +165,7 @@ public class Services_adapter extends BaseAdapter {
                     pDialog.getProgressHelper().setBarColor(R.color.colorPrimary);
                     pDialog.setTitleText("You need to wait " + res.getString("estimated_time") +
                             " minutes" );
-                    pDialog.setContentText("This is service is available at counter number : " +
+                    pDialog.setContentText("This service is available at counter number : " +
                             Integer.toString(pos+10)+"\n"+
                     "Your token number is : " + res.getString("token number"));
                     pDialog.setCancelable(true);

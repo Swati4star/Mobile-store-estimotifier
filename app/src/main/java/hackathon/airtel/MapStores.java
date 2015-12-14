@@ -71,14 +71,7 @@ public class MapStores extends AppCompatActivity {
         }
 
         map = fragment.getMap();
-        GPSTracker tracker = new GPSTracker(MapStores.this);
-        if (tracker.canGetLocation() == false) {
-            tracker.showSettingsAlert();
 
-        } else {
-            latitude = tracker.getLatitude();
-            longitude = tracker.getLongitude();
-        }
 
 
     }
@@ -87,8 +80,16 @@ public class MapStores extends AppCompatActivity {
         LatLng Coord = new LatLng(LocationLat, LocationLong);
 
         if (map != null) {
+
+
+            if(LocationLat == 12.9745 || LocationLat == 31.9608)
+                return;
+
+            Log.e("Showing marker", LocationLat +" "+LocationLong+" "+LocationName);
+
+
             map.setMyLocationEnabled(true);
-            map.moveCamera(CameraUpdateFactory.newLatLngZoom(Coord, 12));
+            map.moveCamera(CameraUpdateFactory.newLatLngZoom(Coord, 8));
 
             MarkerOptions abc = new MarkerOptions();
             MarkerOptions x = abc
@@ -148,7 +149,7 @@ public class MapStores extends AppCompatActivity {
                     lon.add(arr.getJSONObject(i).getString("lng"));
 
 
-                    ShowMarker(Double.parseDouble(lat.get(i)),
+                  ShowMarker(Double.parseDouble(lat.get(i)),
                             Double.parseDouble(lon.get(i)),
                             zone.get(i),
                             R.drawable.ic_person_pin_circle_black_24dp);
@@ -185,6 +186,8 @@ public class MapStores extends AppCompatActivity {
                             break;
                         }
                     }
+
+                    Log.e("in here clicked", marker.getPosition().latitude+" ");
 
                     name.setText(zone.get(position));
                     add.setText(ladd.get(position));

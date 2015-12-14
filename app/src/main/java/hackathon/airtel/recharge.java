@@ -18,7 +18,7 @@ public class recharge extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        setTitle("Airtel");
+        setTitle("Recharge");
 
         WebView browser = (WebView) findViewById(R.id.webview);
         browser.loadUrl("http://www.airtel.in/personal/mobile/prepaid/easy-recharge-enter-number");

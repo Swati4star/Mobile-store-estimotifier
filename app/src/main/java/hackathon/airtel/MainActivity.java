@@ -264,7 +264,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             pDialog.getProgressHelper().setBarColor(R.color.colorPrimary);
             pDialog.setTitleText("Loading..");
             pDialog.setCancelable(false);
-            pDialog.show();   Log.e("vdslmvdspo","started");
+            pDialog.show();
+            Log.e("vdslmvdspo","started");
         }
 
         protected String doInBackground(String... urls) {
@@ -318,23 +319,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                 }else{
                     Log.e("USER", "no special offer");
-                    final SweetAlertDialog pDialog = new SweetAlertDialog(MainActivity.this, SweetAlertDialog.SUCCESS_TYPE);
-                    pDialog.getProgressHelper().setBarColor(R.color.colorPrimary);
-                    pDialog.setTitleText("Congratulations!");
-                    pDialog.setContentText("You have won special offer.Click here to claim!");
-                    pDialog.setCancelable(false);
-
-                    pDialog.setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
-                        @Override
-                        public void onClick(SweetAlertDialog sweetAlertDialog) {
-                            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.airtel.in/"));
-                            startActivity(browserIntent);
-
-                            pDialog.dismiss();
-
-                        }
-                    });
-                    pDialog.show();
 
 
                 }
