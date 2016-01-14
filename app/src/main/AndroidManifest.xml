@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="hackathon.airtel">
 
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -51,6 +54,14 @@
         <activity
             android:name=".recharge"
             android:label="@string/title_activity_recharge"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chat"
+            android:label="@string/title_activity_chat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyLogs"
+            android:label="@string/title_activity_my_logs"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

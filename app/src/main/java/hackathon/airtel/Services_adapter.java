@@ -1,20 +1,13 @@
 package hackathon.airtel;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.ActivityNotFoundException;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
@@ -26,6 +19,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
+import functs.Utils;
 
 /**
  * Created by swati on 9/10/15.
@@ -163,10 +157,14 @@ public class Services_adapter extends BaseAdapter {
 
                     final SweetAlertDialog pDialog = new SweetAlertDialog(context, SweetAlertDialog.SUCCESS_TYPE);
                     pDialog.getProgressHelper().setBarColor(R.color.colorPrimary);
-                    pDialog.setTitleText("You need to wait " + res.getString("estimated_time") +
+        int time = res.getInt("estimated_time");
+                long t = (time - System.currentTimeMillis()/1000)/60;
+
+
+                    pDialog.setTitleText("You need to wait " + t +
                             " minutes" );
                     pDialog.setContentText("This service is available at counter number : " +
-                            Integer.toString(pos+10)+"\n"+
+                            res.getString("counter_num")+"\n"+
                     "Your token number is : " + res.getString("token number"));
                     pDialog.setCancelable(true);
                     pDialog.show();

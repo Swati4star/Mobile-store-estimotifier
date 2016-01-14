@@ -8,4 +8,6 @@
     <string name="title_activity_map_stores">MapStores</string>
     <string name="title_activity_list">ListActi</string>
     <string name="title_activity_recharge">recharge</string>
+    <string name="title_activity_chat">chat</string>
+    <string name="title_activity_my_logs">MyLogs</string>
 </resources>

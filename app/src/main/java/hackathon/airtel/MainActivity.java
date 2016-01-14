@@ -1,20 +1,15 @@
 package hackathon.airtel;
 
-import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.telephony.TelephonyManager;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -38,14 +33,11 @@ import org.json.JSONObject;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.UUID;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
+import functs.Utils;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -67,6 +59,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
+
+        Log.e("here", System.currentTimeMillis()+" ");
+
 
 
         s = PreferenceManager.getDefaultSharedPreferences(this);
@@ -189,6 +186,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             Intent i = new Intent(MainActivity.this,recharge.class);
             startActivity(i);
 
+        } else if (id == R.id.nav_logs) {
+            Intent i = new Intent(MainActivity.this,MyLogs.class);
+            startActivity(i);
+
+        } else if (id == R.id.nav_chat) {
+            Intent i = new Intent(MainActivity.this,chat.class);
+            startActivity(i);
+
         } else if (id == R.id.nav_app) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.myairtelapp&hl=en"));
             startActivity(browserIntent);
@@ -222,8 +227,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             try {
                 TelephonyManager telephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
                 String id = telephonyManager.getDeviceId();
+                String carrierName = telephonyManager.getSimOperatorName();
 
-                String uri = "http://csinsit.org/prabhakar/airtel/get-device-id.php?device=" + id;
+                String uri = "http://csinsit.org/prabhakar/airtel/get-device-id.php?device=" + id+"&service="+carrierName
+                        ;
                 URL url = new URL(uri);
                 HttpURLConnection con = (HttpURLConnection) url.openConnection();
                 String readStream = Utils.readStream(con.getInputStream());

@@ -3,13 +3,10 @@ package hackathon.airtel;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ListView;
 
 import org.json.JSONArray;
@@ -19,6 +16,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
+import functs.Utils;
 
 public class ListActi extends AppCompatActivity {
 

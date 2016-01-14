@@ -13,8 +13,10 @@
     tools:showIn="@layout/activity_first">
 
 <ImageView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
     android:src="@drawable/airtel"/>
 
 

@@ -16,10 +16,18 @@
             android:id="@+id/nav_store"
             android:icon="@drawable/ic_directions_walk_black_24dp"
             android:title="Visit a store" />
+        <item
+            android:id="@+id/nav_logs"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="My Logs" />
     </group>
 
     <item android:title="Communicate">
         <menu>
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_chat_black_24dp"
+                android:title="Live Chat" />
             <item
                 android:id="@+id/nav_app"
                 android:icon="@drawable/ic_speaker_phone_black_24dp"
