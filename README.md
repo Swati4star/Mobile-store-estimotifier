@@ -30,10 +30,18 @@ As soon as the estimote is detected by the app, the services offered by that sto
 If the user needs to visit an Airtel Store, the app provides him with the information related to the nearby Airtel stores.
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-12-43-16.png" width="200px" height="350px" />
+
+
+
+###4. Special 5 Offer
+Airtel Special 5 is an all new Family and Friends plan wherein the customer would be able to choose any 5 Airtel numbers of his choice(local or STD),and make calls to these numbers at a rate of 20 ps/min(For local) and 50 ps/min(For STD).
+
+
+
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/PhotoGrid_1452786264982.jpg" width="200px" height="350px" />
 
 
-###4.
+
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-18-31-15.png" width="200px" height="350px" />
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-18-55-07.png" width="200px" height="350px" />
 
