@@ -14,7 +14,10 @@ We have assumed that an Estimote beacon is attached at some Airtel Store. As soo
 
 
 
+<img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/notifi.png" width="200px" height="350px" />
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-18-59-18.png" width="200px" height="350px" />
+
+
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2016-01-14-21-11-28_hackathon.airtel.png" width="200px" height="350px" />
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-12-43-42.png" width="200px" height="350px" />
 
@@ -36,9 +39,16 @@ If the user needs to visit an Airtel Store, the app provides him with the inform
 ###4. Special 5 Offer
 Airtel Special 5 is an all new Family and Friends plan wherein the customer would be able to choose any 5 Airtel numbers of his choice(local or STD),and make calls to these numbers at a rate of 20 ps/min(For local) and 50 ps/min(For STD).
 
-
-
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/PhotoGrid_1452786264982.jpg" width="200px" height="350px" />
+
+
+###5. Chat
+Airtel Special 5 is an all new Family and Friends plan wherein the customer would be able to choose any 5 Airtel numbers of his choice(local or STD),and make calls to these numbers at a rate of 20 ps/min(For local) and 50 ps/min(For STD).
+
+
+
+<img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/chat.png" width="200px" height="350px" />
+
 
 
 
