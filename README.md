@@ -5,18 +5,16 @@ Estimote Beacons are small wireless sensors that we can attach to any location o
 
 <img src="http://www.mjdinteractive.com/wp-content/uploads/2013/12/estimote-beacons1.jpg" width="400px" height="200px" />
 
+We have assumed that an Estimote beacon is attached at some Airtel Store. The data related to that airtel store, along with estimote id, are uploaded on the cloud.
+
 ##Features
 
 ###1. Notify the user
-We have assumed that an Estimote beacon is attached at some Airtel Store. As soon as the app comes in proximity (upto 50m) to the store it receives a push notification welcoming the user to the store. For every 1000th user, we have a special prize (some coupons) for the user.
-
-
-
-
+As soon as the app comes in proximity (upto 70m) to the store it receives a push notification welcoming the user to the store. 
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/notifi.png" width="200px" height="350px" />
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-18-59-18.png" width="200px" height="350px" />
-
+For every new user, we update his information(Mobile Number an Service provider) to the server. For every 1000th user, we have a special prize (some coupons) for the user.
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2016-01-14-21-11-28_hackathon.airtel.png" width="200px" height="350px" />
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-12-43-42.png" width="200px" height="350px" />
