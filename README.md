@@ -4,8 +4,14 @@ One [Estimote beacon](http://estimote.com/) in each Airtel store and with that u
 
 + **[Estimote Beacons](#estimote-beacons)**
 + **[Features](#features)**
-+ **[Technical Requirements](#features)**
-+ **[Contact Us](#features)**
+  + [Notify User as soon as he enters proximity](#1-notify-user-as-soon-as-he-enters-proximity)
+  + [Display Services](#2-display-services)
+  + [Locate nearby Airtel Stores](#3-locate-nearby-airtel-stores)
+  + [Recommend best Airtel plans](#4-recommend-best-airtel-plans)
+  + [Chat Serices](#5-chat-serices)
+  + [Other Services](#6-other-services)
++ **[Technical Requirements](#technical-requirements)**
++ **[Contact Us](#contact-us)**
 
 ## Estimote Beacons 
 Estimote Beacons are small wireless sensors that we can attach to any location or object. They broadcast tiny radio signals which our smartphone can receive and interpret, unlocking micro-location and contextual awareness.
@@ -76,8 +82,9 @@ Technically, all Bluetooth Smart-enabled android devices could pick up Bluetooth
 
 Feel free to contact us for any support, query, suggestion or even say hi.
 
-[Prabhakar Gupta](mailto:prabhakargupta267@gmail.com)
-[Swati Garg](mailto:swati.garg.nsit@gmail.com)
+**[Prabhakar Gupta](mailto:prabhakargupta267@gmail.com)**
+
+**[Swati Garg](mailto:swati.garg.nsit@gmail.com)**
 
 
 
