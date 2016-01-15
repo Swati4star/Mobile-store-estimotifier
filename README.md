@@ -1,4 +1,4 @@
-# Hackathon-airtel
+Airtel App Development Contest Submission
 
 One [Estimote beacon](http://estimote.com/) in each Airtel store and with that users can get numerous facilities. The data related to that specific airtel store, along with the Estimote ID, are uploaded on the cloud MySQL database.
 
@@ -12,6 +12,8 @@ One [Estimote beacon](http://estimote.com/) in each Airtel store and with that u
   + [Other Services](#6-other-services)
 + **[Technical Requirements](#technical-requirements)**
 + **[Contact Us](#contact-us)**
++ **[Video Link](https://www.youtube.com/watch?v=QZUsQFbLwn4)**
++ **[Presentation](https://docs.google.com/presentation/d/1gXRQZ-Zp1z8lc9oOKbzXLmE9rUBiJ5aX8jM3oUq7ihA/edit?usp=sharing)**
 
 ## Estimote Beacons 
 Estimote Beacons are small wireless sensors that we can attach to any location or object. They broadcast tiny radio signals which our smartphone can receive and interpret, unlocking micro-location and contextual awareness.
@@ -43,7 +45,7 @@ As soon as the estimote finds an Airtel app it triggers and phone fetchs all the
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-18-31-22.png" width="200px" height="350px" />
 
 ###3. Locate nearby Airtel Stores
-If the user needs to visit an Airtel Store, we provide him with the information related to all the nearby Airtel stores. This can be futher extended to provide store in those areas from where we get many requests but there is no store in their locality.
+If the user needs to visit an Airtel Store, we provide him with the information related to all the nearby Airtel stores. This can be further extended to provide store in those areas from where we get many requests but there is no store in their locality.
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-12-43-16.png" width="200px" height="350px" />
 
@@ -55,7 +57,7 @@ Like Airtel provides the user with **[Airtel Special 5 Offer](http://www.airtel.
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/PhotoGrid_1452786264982.jpg" width="200px" height="350px" />
 
 
-###5. Chat Serices
+###5. Chat Services
 There are times when Airtel customer care number is busy, for those "rare" times, we have an online chat platform for live chat with Airtel Customer Care Executive for instant support.
 
 For Airtel personels, we designed a platform from which they can resolve all the problems simply because of a easy user interface. For each query, several details like service provider, mobile number, location, etc. is shown for improved support.
