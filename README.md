@@ -37,21 +37,21 @@ If the user needs to visit an Airtel Store, the app provides him with the inform
 
 
 ###4. Special 5 Offer
-Airtel Special 5 is an all new Family and Friends plan wherein the customer would be able to choose any 5 Airtel numbers of his choice(local or STD),and make calls to these numbers at a rate of 20 ps/min(For local) and 50 ps/min(For STD).
+Airtel provides the user with **Airtel Special 5 Offer**, which is an all new Family and Friends plan wherein the customer would be able to choose any 5 Airtel numbers of his choice(local or STD),and make calls to these numbers at a rate of 20 ps/min(For local) and 50 ps/min(For STD). Through our app, User can see his mostly contacted contacts which would help him to choose the best plan for him.
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/PhotoGrid_1452786264982.jpg" width="200px" height="350px" />
 
 
-###5. Chat
-Airtel Special 5 is an all new Family and Friends plan wherein the customer would be able to choose any 5 Airtel numbers of his choice(local or STD),and make calls to these numbers at a rate of 20 ps/min(For local) and 50 ps/min(For STD).
-
+###5. Chat Serices
+We have an online chat portal for live chat with airtel customer care executive for instant support.
 
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/chat.png" width="200px" height="350px" />
 
 
 
-
+###6. Other Services
+Our app provides the user with various services like purchasing the devices available at that store. User can recharge his/her phone from the app itself.
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-18-31-15.png" width="200px" height="350px" />
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-18-55-07.png" width="200px" height="350px" />
 
