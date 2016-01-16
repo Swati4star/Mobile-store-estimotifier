@@ -13,9 +13,9 @@ One [Estimote beacon](http://estimote.com/) in each Airtel store and with that u
 + **[Technical Requirements](#technical-requirements)**
 + **[Video Link](https://www.youtube.com/watch?v=QZUsQFbLwn4)**
 + **[Presentation](https://docs.google.com/presentation/d/1gXRQZ-Zp1z8lc9oOKbzXLmE9rUBiJ5aX8jM3oUq7ihA/edit?usp=sharing)**
-+ **[How does Estitmote Beacon work](#contact-us)**
++ **[How does Estitmote Beacon work](#how-does-estitmote-beacon-work)**
 + **[Contact Us](#contact-us)**
-w
+
 ## Estimote Beacons 
 Estimote Beacons are small wireless sensors that we can attach to any location or object. They broadcast tiny radio signals which our smartphone can receive and interpret, unlocking micro-location and contextual awareness.
 
@@ -79,6 +79,10 @@ Many users tend to buy devices from Airtel store or get their mobiles recharged.
 ## Technical Requirements
 
 Technically, all Bluetooth Smart-enabled android devices could pick up Bluetooth Low Energy signals. The Bluetooth Special Interest Group maintains a [list of devices](https://www.bluetooth.com/what-is-bluetooth-technology/bluetooth-devices) that support Bluetooth Low Energy. These include Android devices like: Samsung Galaxy S devices, Google Nexus, Google Glass and many more.
+
+## How does Estitmote Beacon work
+
+![](/screenies/Screenshot from 2016-01-17 01:58:26.png?raw=true )
 
 
 ## Contact Us
