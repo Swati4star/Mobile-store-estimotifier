@@ -8,7 +8,7 @@ One [Estimote beacon](http://estimote.com/) in each Airtel store and with that u
   + [Display Services](#2-display-services)
   + [Locate nearby Airtel Stores](#3-locate-nearby-airtel-stores)
   + [Recommend best Airtel plans](#4-recommend-best-airtel-plans)
-  + [Chat Serices](#5-chat-serices)
+  + [Chat Serices](#5-chat-services)
   + [Other Services](#6-other-services)
 + **[Technical Requirements](#technical-requirements)**
 + **[Contact Us](#contact-us)**
