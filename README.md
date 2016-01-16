@@ -1,4 +1,4 @@
-Airtel App Development Contest Submission
+#Airtel App Development Contest Submission
 
 One [Estimote beacon](http://estimote.com/) in each Airtel store and with that users can get numerous facilities. The data related to that specific airtel store, along with the Estimote ID, are uploaded on the cloud MySQL database.
 
@@ -37,7 +37,7 @@ To encourage people to come to the store, for every 100th user for each store wi
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-12-43-42.png" width="200px" height="350px" />
 
 ###2. Display Services
-As soon as the estimote finds an Airtel app it triggers and phone fetchs all the the services offered by that store and are presented to the user. For the services which require personel assistance an automatically generated **token number** and the estimated time left is shown. The key benefit of adding this is user does not need to wait in the queue, he gets everything at one go.
+As soon as the estimote finds an Airtel app it triggers and phone fetches all the the services offered by that store and are presented to the user. For the services which require personnel assistance an automatically generated **token number** and the estimated time left is shown. The key benefit of adding this is that user does not need to wait in the queue, he/she gets everything at one go.
 
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-18-31-25.png" width="200px" height="350px" />
@@ -52,7 +52,7 @@ If the user needs to visit an Airtel Store, we provide him with the information 
 
 
 ###4. Recommend best Airtel plans
-Like Airtel provides the user with **[Airtel Special 5 Offer](http://www.airtel.in/mobile/prepaid/services?CIRCLE=7&CIRCLENAME=Kerala&ID=1212&SERVICENAME=Special%205)**; we help users with Airtel app to see their mostly contacted numbers **(this is calculated using a proper weighted algorithm incorporating incoming calls, outgoing calls, missed calls and text messages)** with which we can recommend them the best plans related to their usage. This can be similarly extended to data usage.
+Like Airtel provides the user with **[Airtel Special 5 Offer](http://www.airtel.in/mobile/prepaid/services?CIRCLE=7&CIRCLENAME=Kerala&ID=1212&SERVICENAME=Special%205)**; we help users with Airtel app to see their most frequently contacted numbers **(this is calculated using a proper weighted algorithm incorporating incoming calls, outgoing calls, missed calls and text messages)** with which we can recommend them the best plans related to their usage. This can be similarly extended to data usage.
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/PhotoGrid_1452786264982.jpg" width="200px" height="350px" />
 
@@ -60,7 +60,7 @@ Like Airtel provides the user with **[Airtel Special 5 Offer](http://www.airtel.
 ###5. Chat Services
 There are times when Airtel customer care number is busy, for those "rare" times, we have an online chat platform for live chat with Airtel Customer Care Executive for instant support.
 
-For Airtel personels, we designed a platform from which they can resolve all the problems simply because of a easy user interface. For each query, several details like service provider, mobile number, location, etc. is shown for improved support.
+For Airtel personnels, we have designed a platform from which they can resolve all the problems easily because of an easy user interface. For each query, several details like service provider, mobile number, location, etc. are shown for improved support.
 
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/chat.png" width="200px" height="350px" />
@@ -68,7 +68,7 @@ For Airtel personels, we designed a platform from which they can resolve all the
 
 
 ###6. Other Services
-Many users tend to buy devices from Airtel store or get their mobiles recharged. Our app provides the user with various services like purchasing the devices available at that store. User can even recharge his/her phone from the app itself. We can provide some coupon-codes for users who use this recharge platform to encourage its usage.
+Many users tend to buy devices from Airtel store or get their mobiles recharged. Our app provides the user with various services like purchasing the devices available at that store. Users can even recharge their phone from this app itself. We can provide some coupon-codes for users who use this recharge platform to encourage its usage.
 
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-18-31-15.png" width="200px" height="350px" />
