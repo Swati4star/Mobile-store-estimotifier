@@ -1,6 +1,6 @@
 #Airtel App Development Contest Submission
 
-One [Estimote beacon](http://estimote.com/) in each Airtel store and with that users can get numerous facilities. The data related to that specific airtel store, along with the Estimote ID, are uploaded on the cloud MySQL database.
+One [Estimote beacon](http://estimote.com/) in each Airtel store and with that users can get numerous facilities. The data related to that specific airtel store, along with the Estimote beacon ID, are uploaded on the cloud MySQL database.
 
 + **[Estimote Beacons](#estimote-beacons)**
 + **[Features](#features)**
@@ -11,10 +11,11 @@ One [Estimote beacon](http://estimote.com/) in each Airtel store and with that u
   + [Chat Serices](#5-chat-services)
   + [Other Services](#6-other-services)
 + **[Technical Requirements](#technical-requirements)**
-+ **[Contact Us](#contact-us)**
 + **[Video Link](https://www.youtube.com/watch?v=QZUsQFbLwn4)**
 + **[Presentation](https://docs.google.com/presentation/d/1gXRQZ-Zp1z8lc9oOKbzXLmE9rUBiJ5aX8jM3oUq7ihA/edit?usp=sharing)**
-
++ **[How does Estitmote Beacon work](#contact-us)**
++ **[Contact Us](#contact-us)**
+w
 ## Estimote Beacons 
 Estimote Beacons are small wireless sensors that we can attach to any location or object. They broadcast tiny radio signals which our smartphone can receive and interpret, unlocking micro-location and contextual awareness.
 
@@ -23,7 +24,7 @@ Estimote Beacons are small wireless sensors that we can attach to any location o
 ##Features
 
 ###1. Notify User as soon as he enters proximity
-As soon as the user with Airtel Android app installed comes in proximity (~70m) of the store, he receives a push notification welcoming him to the store. This will help us keep a track of total footfall of users in each store.
+As soon as the user with Airtel Android app installed comes in proximity (~70m) of the store (detected by estimote beacon), he receives a push notification welcoming him to the store. This will help us keep a track of total footfall of users in each store.
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/notifi.png" width="200px" height="350px" />
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-18-59-18.png" width="200px" height="350px" />
@@ -37,7 +38,7 @@ To encourage people to come to the store, for every 100th user for each store wi
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-12-43-42.png" width="200px" height="350px" />
 
 ###2. Display Services
-As soon as the estimote finds an Airtel app it triggers and phone fetches all the the services offered by that store and are presented to the user. For the services which require personnel assistance an automatically generated **token number** and the estimated time left is shown. The key benefit of adding this is that user does not need to wait in the queue, he/she gets everything at one go.
+As soon as the estimote beacon finds an Airtel app it triggers and phone fetches all the the services offered by that store and are presented to the user. For the services which require personnel assistance an automatically generated **token number** and the estimated time left is shown. The key benefit of adding this is that user does not need to wait in the queue, he/she gets everything at one go.
 
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/Screenshot_2015-12-12-18-31-25.png" width="200px" height="350px" />
