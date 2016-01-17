@@ -59,9 +59,9 @@ Like Airtel provides the user with **[Airtel Special 5 Offer](http://www.airtel.
 
 
 ###5. Chat Services
-There are times when Airtel customer care number is busy, for those "rare" times, we have an online chat platform for live chat with Airtel Customer Care Executive for instant support.
+There are times when Airtel customer care number is busy. For those "rare" times, we have an online chat platform for live chat with Airtel Customer Care Executive for instant support.
 
-For Airtel personnels, we have designed a platform from which they can resolve all the problems easily because of an easy user interface. For each query, several details like service provider, mobile number, location, etc. are shown for improved support.
+For Airtel personnels, we have designed a platform from which they can resolve all the problems easily because of an easy user interface. For each query, several details like service provider, mobile number, location, etc. are shown for best support.
 
 
 <img src="https://github.com/Swati4star/Hackathon-airtel/blob/master/screenies/chat.png" width="200px" height="350px" />
