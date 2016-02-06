@@ -34,3 +34,6 @@ build/
 
 #NDK
 obj/
+
+#database connection file ignored
+connection.inc.php
