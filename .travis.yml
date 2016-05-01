@@ -13,6 +13,9 @@ android:
   licenses:
     - '.+'
 
+install:
+    - true
+
 before_script:
     - chmod +x gradlew
 
