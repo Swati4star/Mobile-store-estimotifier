@@ -23,11 +23,11 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'me.everything:providers-android:1.0.1'
-    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.google.android.gms:play-services-maps:7.5.0'
-    compile 'com.google.android.gms:play-services-location:7.5.0'
-    compile 'com.android.support:design:23.1.1'
+    compile 'com.google.android.gms:play-services-maps:8.4.0'
+    compile 'com.google.android.gms:play-services-location:8.4.0'
+    compile 'com.android.support:design:23.3.0'
     compile 'com.estimote:sdk:0.9.4@aar'
     compile 'cn.pedant.sweetalert:library:1.3'
 }
