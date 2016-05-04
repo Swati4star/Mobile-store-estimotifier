@@ -16,6 +16,12 @@ One [Estimote beacon](http://estimote.com/) in each Airtel store and with that u
 + **[How does Estitmote Beacon work](#how-does-estitmote-beacon-work)**
 + **[Contact Us](#contact-us)**
 
+##Demo Video on YouTube
+
+[![Mobile Store Estmotifier Youtube Video](https://img.youtube.com/vi/QZUsQFbLwn4/0.jpg)](https://www.youtube.com/watch?v=QZUsQFbLwn4)
+
+
+
 ## Estimote Beacons 
 Estimote Beacons are small wireless sensors that we can attach to any location or object. They broadcast tiny radio signals which our smartphone can receive and interpret, unlocking micro-location and contextual awareness.
 
