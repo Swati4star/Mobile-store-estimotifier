@@ -26,7 +26,8 @@ One [Estimote beacon](http://estimote.com/) in each Airtel store and with that u
 Estimote Beacons are small wireless sensors that we can attach to any location or object. They broadcast tiny radio signals which our smartphone can receive and interpret, unlocking micro-location and contextual awareness.
 
 <img src="http://www.mjdinteractive.com/wp-content/uploads/2013/12/estimote-beacons1.jpg" width="400px" height="200px" />
-##Features
+
+## Features
 
 ### 1. Notify User as soon as he enters proximity
 As soon as the user with Airtel Android app installed comes in proximity (~70m) of the store (detected by estimote beacon), he receives a push notification welcoming him to the store. This will help us keep a track of total footfall of users in each store.
@@ -92,6 +93,3 @@ Feel free to contact us for any support, query, suggestion or even say hi.
 **[Prabhakar Gupta](mailto:prabhakargupta267@gmail.com)**
 
 **[Swati Garg](mailto:swati.garg.nsit@gmail.com)**
-
-
-
